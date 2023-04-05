@@ -1,0 +1,73 @@
+
+body{background-image: url(../imagem/fundos/cartafundo3.jpg);}
+
+ nav a {text-decoration: none; 
+        padding: 10px;  
+        color: #ffffff; 
+        font-size: 20px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+nav {background-color: rgb(43, 43, 43); 
+    left: 0px; 
+    top: 0px; 
+    right: 0px;
+    padding:30px;
+text-align: right;
+position: fixed;}
+
+.flor {position: fixed;
+left:20px;
+top: 5px;
+width: 100px;}
+
+.footer { background-color: rgb(30, 30, 30);
+    color: #ffffff;
+    padding: 15px; 
+    text-align: center; 
+    position: absolute; 
+    font-size: 20px;
+    width: 100%;
+   bottom: 0px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    margin-bottom: 0px;} 
+
+    
+p { width: 600px; 
+    line-height: 30px; 
+    font-size: 20px; 
+    margin-left: 20px;
+    margin-top: 55px;
+    text-align: center;
+    margin-left: 400px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;}
+    
+
+.Marian { width: 350px; 
+    top: 160px; 
+    right: 50px; 
+    border-radius: 50%; 
+    position: absolute;
+    margin-right: 400px;}
+
+ h1 {width: 600px; 
+    line-height: 30px; 
+    font-size: 50px; 
+    margin-left: 20px;
+    margin-top: 250px;
+    text-align: center;
+    margin-left: 400px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;}
+     
+ h4 {line-height: 30px; 
+    font-size: 30px; 
+    margin-top: 15px;
+    text-align: center;
+    color: #ffffff;}
+
+    .redes {
+    margin-top: 5px;
+    text-align: center;}
+

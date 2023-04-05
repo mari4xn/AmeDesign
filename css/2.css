@@ -1,0 +1,213 @@
+
+
+body{background-image: url(../imagem/fundos/fundo\ maior.jpg);}
+ nav a {text-decoration: none; 
+        padding: 10px;  
+        color: #ffffff; 
+        font-size: 20px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+nav {background-color: rgb(43, 43, 43); 
+    left: 0px; 
+    top: 0px; 
+    right: 0px;
+    padding:30px;
+text-align: right;
+position: fixed;}
+
+.flor {position: fixed;
+left:20px;
+top: 5px;
+width: 100px;}
+
+.footer { background-color: rgb(20, 20, 20);
+    color: #ffffff;
+    padding: 15px; 
+    text-align: center; 
+    position: relative; 
+    font-size: 20px;
+    top: 300px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    margin-bottom: 0px;} 
+
+    
+p { width: 600px; 
+    line-height: 30px; 
+    font-size: 20px; 
+    margin-left: 20px;
+    margin-top: 55px;
+    text-align: center;
+    margin-left: 400px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;}
+    
+
+.Marian { width: 350px; 
+    top: 160px; 
+    right: 50px; 
+    border-radius: 50%; 
+    position: absolute;
+    margin-right: 400px;}
+
+ h1 {width: 600px; 
+    line-height: 30px; 
+    font-size: 50px; 
+    margin-left: 20px;
+    margin-top: 250px;
+    text-align: center;
+    margin-left: 400px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;}
+     
+ /* carrosel ilustraçao */
+    .slider {display: block;
+             height: 293px;
+             width: 600px;
+             margin: auto;
+             margin-top: 120px;
+             position: relative;}
+    
+    .slider li {list-style: none;
+                position: absolute}
+    
+    .slider img {margin: auto;
+                 height: 100%;
+                 width: 100%;
+                 vertical-align: top;
+                 border-radius: 10%;}
+    
+    .slider input {
+        display: none;
+    }
+    .slider label {
+        background-color: #000;
+        bottom: 10px;
+        cursor: pointer;
+        display: block;
+        height: 10px;
+        position: absolute;
+        width: 10px;
+        z-index: 10;
+    }
+    
+    .slider li:nth-child(1) label {
+        left: 10px;
+    }
+    
+    .slider li:nth-child(2) label {
+        left: 40px;
+    }
+    
+    .slider li:nth-child(3) label {
+        left: 70px;
+    }
+    .slider li:nth-child(4) label {
+        left: 100px;
+    }
+    
+    .slider img {
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    .slider li input:checked ~ img {
+        opacity: 1;
+        visibility: visible;
+        z-index: 10;
+    }
+/*embalagem*/
+.emb1 {width: 600px;
+margin-top: 200px;
+margin-left: 10px;
+border-radius: 10%;}
+
+.emb2 {width: 600px;
+    border-radius: 10%;}
+
+.emb3 {width: 600px;
+    border-radius: 10%;}
+
+.emb4 {width: 600px;
+margin-top: 15px;
+margin-left: 605px;
+border-radius: 10%;}
+
+ /*ilustraçao*/
+.ilu2 {width: 650px;
+margin-top: 100px;
+border-radius: 10%;
+margin-left: 280px;} 
+
+.ilu3 {width: 650px;
+border-radius: 10%;}
+
+.ilu4 {width: 650px;
+border-radius: 10%;
+margin-left: 280px;}
+
+.ilu5 {width: 650px;
+border-radius: 10%;}
+
+.ilu6 {width: 650px;
+border-radius: 10%;
+margin-left: 280px;}
+
+.ilu7 {width: 650px;
+border-radius: 10%;}
+
+.ilu8 {width: 650px;
+border-radius: 10%;
+margin-left: 280px;}
+
+.ilu9 {width: 650px;
+border-radius: 10%;}
+
+.ilu11 {width: 650px;
+border-radius: 10%;
+margin-left: 600px;}
+
+ /*editorial*/
+ .liv1 {width: 650px;
+    border-radius: 10%;
+    margin-left: 280px;}
+    
+    .liv2 {width: 650px;
+    border-radius: 10%;}
+    
+    .liv3 {width: 650px;
+    border-radius: 10%;
+    margin-left: 280px;}
+    
+    .liv4 {width: 650px;
+    border-radius: 10%;}
+
+    .liv5 {width: 650px;
+        border-radius: 10%;
+        margin-left: 600px;
+    margin-top: 100px;}
+
+  /*foto e video*/
+  .videopeba {
+    width: 800px;
+    margin-top: 100px;
+    border-radius: 10%;
+    margin-left: 90px;}
+    .sonda {
+        width: 800px;
+        margin-top: 100px;
+        border-radius: 10%;
+        margin-left: 5px;}
+
+    .crepusculo {
+          width: 800px;
+            margin-top: 10px;
+            border-radius: 10%;
+            margin-left:90px;}
+
+            .among {
+                width: 800px;
+                margin-top: 10px;
+                border-radius: 10%;
+                margin-left: 5px;}       
+   
